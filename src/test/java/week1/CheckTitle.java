@@ -6,13 +6,20 @@ import org.openqa.selenium.chrome.*;
 
 public class CheckTitle {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+
 
         WebDriverManager.chromedriver().setup();
 
         WebDriver driver = new ChromeDriver();
 
         driver.get("http://practice.cybertekschool.com/");
+
+        driver.manage().window().maximize();
+
+
+//        Thread.sleep(2000);
 
         // user story
         // 1. go to cydeo practive page
@@ -25,6 +32,13 @@ public class CheckTitle {
         }else {
             System.out.println("The tile is not correct");
         }
+
+
+        System.out.println("The current url of the page is:" + driver.getCurrentUrl());
+
+        Thread.sleep(2000);
+
+        driver.close();
 
 
     }
