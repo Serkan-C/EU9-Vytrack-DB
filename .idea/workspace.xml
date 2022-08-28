@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="second push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week1/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/CssSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/Xpath.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="automation week 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week2/CssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/CssSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week2/Xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/Xpath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CssSelector">
+  <component name="RunManager" selected="Application.Xpath">
     <configuration name="CheckTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week1.CheckTitle" />
       <module name="EU9SeleniumReview" />
@@ -69,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.FirstClass" />
+    <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1.Locators" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Locators" />
+    <configuration name="Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.Xpath" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Xpath" />
         <item itemvalue="Application.CssSelector" />
         <item itemvalue="Application.Locators" />
         <item itemvalue="Application.amazon" />
         <item itemvalue="Application.CheckTitle" />
-        <item itemvalue="Application.FirstClass" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661107481700</updated>
       <workItem from="1661107483142" duration="4548000" />
-      <workItem from="1661691059817" duration="4966000" />
+      <workItem from="1661691059817" duration="5859000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661111263155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="automation week 2">
+      <created>1661699400311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661699400311</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="first push" />
+    <MESSAGE value="automation week 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="automation week 2" />
   </component>
 </project>

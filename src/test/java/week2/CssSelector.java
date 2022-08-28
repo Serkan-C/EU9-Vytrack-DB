@@ -15,8 +15,11 @@ public class CssSelector {
 
 
         // using css locator
-        WebElement title = driver.findElement(By.cssSelector("div[id=\"flash-messages\"]"));
-        System.out.println(title.getTagName());
+//        WebElement title = driver.findElement(By.cssSelector("div[id=\"flash-messages\"]"));
+//        System.out.println(title.getTagName());
+
+        WebElement ul = driver.findElement(By.cssSelector("ul[class='list-group']"));
+        System.out.println(ul.getTagName());
 
 
     }
