@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="find element and find elements added">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/Click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/SendKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/Waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/RadioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/StaleElementException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week2/FindAndFinds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/FindAndFinds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week3/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/Waits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,20 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Waits">
+  <component name="RunManager" selected="Application.StaleElementException">
+    <configuration name="CheckBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.CheckBox" />
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Click" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week2.Click" />
       <module name="EU9SeleniumReview" />
@@ -67,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAndFinds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.FindAndFinds" />
+    <configuration name="RadioButtons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.RadioButtons" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.*" />
+          <option name="PATTERN" value="week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.SendKeys" />
+    <configuration name="StaleElementException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.StaleElementException" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.*" />
+          <option name="PATTERN" value="week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.Xpath" />
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaleElementException" />
+        <item itemvalue="Application.CheckBox" />
+        <item itemvalue="Application.RadioButtons" />
         <item itemvalue="Application.Waits" />
         <item itemvalue="Application.Click" />
-        <item itemvalue="Application.SendKeys" />
-        <item itemvalue="Application.FindAndFinds" />
-        <item itemvalue="Application.Xpath" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +138,7 @@
       <workItem from="1661107483142" duration="4548000" />
       <workItem from="1661691059817" duration="6631000" />
       <workItem from="1662190658016" duration="27000" />
-      <workItem from="1662298262842" duration="7298000" />
+      <workItem from="1662298262842" duration="9573000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -177,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662303177544</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="find element and find elements added">
+      <created>1662307739899</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662307739899</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
