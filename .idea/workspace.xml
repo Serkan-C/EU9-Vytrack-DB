@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="final push">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/TestNg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/TestNg.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="isDisplayed() method is explained. &#10;TestNg annotations explained">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/Assertions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,34 +47,8 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNg">
-    <configuration name="Display" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.Display" />
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaleElementException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.StaleElementException" />
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNg" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Assertions.homePage">
+    <configuration name="Assertions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -87,7 +57,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.TestNg" />
+      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -95,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNg.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Assertions.assertResult" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +74,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.TestNg" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
+      <option name="METHOD_NAME" value="assertResult" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNg.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Assertions.getTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +92,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.TestNg" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
+      <option name="METHOD_NAME" value="getTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assertions.homePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
+      <option name="METHOD_NAME" value="homePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assertions.linkNum" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
+      <option name="METHOD_NAME" value="linkNum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestNg" />
-        <item itemvalue="TestNG.TestNg.test1" />
-        <item itemvalue="TestNG.TestNg.test2" />
-        <item itemvalue="Application.Display" />
-        <item itemvalue="Application.StaleElementException" />
+        <item itemvalue="TestNG.Assertions.homePage" />
+        <item itemvalue="TestNG.Assertions" />
+        <item itemvalue="TestNG.Assertions.getTitle" />
+        <item itemvalue="TestNG.Assertions.linkNum" />
+        <item itemvalue="TestNG.Assertions.assertResult" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +163,7 @@
       <workItem from="1661691059817" duration="6631000" />
       <workItem from="1662190658016" duration="27000" />
       <workItem from="1662298262842" duration="10637000" />
-      <workItem from="1662901850948" duration="5508000" />
+      <workItem from="1662901850948" duration="7983000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -208,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662310026846</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="isDisplayed() method is explained. &#10;TestNg annotations explained">
+      <created>1662907625424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662907625424</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +244,7 @@
     <MESSAGE value="automation week 2 xpath added" />
     <MESSAGE value="find element and find elements added" />
     <MESSAGE value="final push" />
-    <option name="LAST_COMMIT_MESSAGE" value="final push" />
+    <MESSAGE value="isDisplayed() method is explained. &#10;TestNg annotations explained" />
+    <option name="LAST_COMMIT_MESSAGE" value="isDisplayed() method is explained. &#10;TestNg annotations explained" />
   </component>
 </project>
