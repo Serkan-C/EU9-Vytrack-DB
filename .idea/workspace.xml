@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="isDisplayed() method is explained. &#10;TestNg annotations explained">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/Assertions.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="Assertion is explained">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/DropDowns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +48,8 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Assertions.homePage">
-    <configuration name="Assertions" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Alerts">
+    <configuration name="Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -57,7 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
+      <option name="MAIN_CLASS_NAME" value="week4.Alerts" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -65,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assertions.assertResult" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Alerts.confirmation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +75,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
-      <option name="METHOD_NAME" value="assertResult" />
+      <option name="MAIN_CLASS_NAME" value="week4.Alerts" />
+      <option name="METHOD_NAME" value="confirmation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assertions.getTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Alerts.prompt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +93,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
-      <option name="METHOD_NAME" value="getTitle" />
+      <option name="MAIN_CLASS_NAME" value="week4.Alerts" />
+      <option name="METHOD_NAME" value="prompt" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assertions.homePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DropDowns.defaultOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +111,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
-      <option name="METHOD_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="week4.DropDowns" />
+      <option name="METHOD_NAME" value="defaultOption" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assertions.linkNum" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DropDowns.selectDate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +129,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Assertions" />
-      <option name="METHOD_NAME" value="linkNum" />
+      <option name="MAIN_CLASS_NAME" value="week4.DropDowns" />
+      <option name="METHOD_NAME" value="selectDate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Assertions.homePage" />
-        <item itemvalue="TestNG.Assertions" />
-        <item itemvalue="TestNG.Assertions.getTitle" />
-        <item itemvalue="TestNG.Assertions.linkNum" />
-        <item itemvalue="TestNG.Assertions.assertResult" />
+        <item itemvalue="TestNG.Alerts" />
+        <item itemvalue="TestNG.Alerts.prompt" />
+        <item itemvalue="TestNG.Alerts.confirmation" />
+        <item itemvalue="TestNG.DropDowns.selectDate" />
+        <item itemvalue="TestNG.DropDowns.defaultOption" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +164,7 @@
       <workItem from="1661691059817" duration="6631000" />
       <workItem from="1662190658016" duration="27000" />
       <workItem from="1662298262842" duration="10637000" />
-      <workItem from="1662901850948" duration="7983000" />
+      <workItem from="1662901850948" duration="12523000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662907625424</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Assertion is explained">
+      <created>1662910946937</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662910946937</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +253,7 @@
     <MESSAGE value="find element and find elements added" />
     <MESSAGE value="final push" />
     <MESSAGE value="isDisplayed() method is explained. &#10;TestNg annotations explained" />
-    <option name="LAST_COMMIT_MESSAGE" value="isDisplayed() method is explained. &#10;TestNg annotations explained" />
+    <MESSAGE value="Assertion is explained" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assertion is explained" />
   </component>
 </project>
