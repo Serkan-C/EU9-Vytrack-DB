@@ -10,6 +10,8 @@ public class Task3 {
     @Test
     public void test1(){
 
+
+
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");

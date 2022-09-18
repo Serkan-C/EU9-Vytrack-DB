@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="task 2 is added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExtraTasks/Task3.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="task 3 is added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week5/Properties1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExtraTasks/SmartBearUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtraTasks/SmartBearUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExtraTasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtraTasks/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExtraTasks/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtraTasks/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week5/JavaFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/JavaFaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +56,35 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task3.test1">
-    <configuration name="JavaFaker.informationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Alerts">
+    <configuration name="Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week5.*" />
+          <option name="PATTERN" value="week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.JavaFaker" />
-      <option name="METHOD_NAME" value="informationForm" />
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.Alerts" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alerts.warning" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.Alerts" />
+      <option name="METHOD_NAME" value="warning" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaFaker.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaFaker.property" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -78,25 +102,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="week5" />
       <option name="MAIN_CLASS_NAME" value="week5.JavaFaker" />
+      <option name="METHOD_NAME" value="property" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Properties1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week5" />
+      <option name="MAIN_CLASS_NAME" value="week5.Properties1" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1.getLinkNumber" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExtraTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ExtraTasks" />
-      <option name="MAIN_CLASS_NAME" value="ExtraTasks.Task1" />
-      <option name="METHOD_NAME" value="getLinkNumber" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,31 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExtraTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ExtraTasks" />
-      <option name="MAIN_CLASS_NAME" value="ExtraTasks.Task3" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Task3.test1" />
+        <item itemvalue="TestNG.Alerts" />
+        <item itemvalue="TestNG.Alerts.warning" />
+        <item itemvalue="TestNG.Properties1.test1" />
+        <item itemvalue="TestNG.JavaFaker.property" />
         <item itemvalue="TestNG.Task2.test2" />
-        <item itemvalue="TestNG.Task1.getLinkNumber" />
-        <item itemvalue="TestNG.JavaFaker.informationForm" />
-        <item itemvalue="TestNG.JavaFaker.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +175,7 @@
       <workItem from="1662901850948" duration="12989000" />
       <workItem from="1663264271851" duration="5724000" />
       <workItem from="1663399118000" duration="10000" />
-      <workItem from="1663448425535" duration="13210000" />
+      <workItem from="1663448425535" duration="16989000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -283,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663519130776</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="task 3 is added">
+      <created>1663519590895</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663519590895</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +326,7 @@
     <MESSAGE value="iframe and window handle added" />
     <MESSAGE value="extra task added" />
     <MESSAGE value="task 2 is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2 is added" />
+    <MESSAGE value="task 3 is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 3 is added" />
   </component>
 </project>

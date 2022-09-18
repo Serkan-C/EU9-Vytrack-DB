@@ -8,9 +8,11 @@ import org.openqa.selenium.safari.*;
 
 public  class SmartBearUtil {
 
+    WebDriver driver = null;
     public void login(String driverType){
 
-        WebDriver driver = null;
+
+
 
         switch (driverType){
             case "chrome":

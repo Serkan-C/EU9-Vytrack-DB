@@ -1,5 +1,6 @@
 package week4;
 
+import base.*;
 import org.openqa.selenium.*;
 import org.testng.*;
 import org.testng.annotations.*;
@@ -7,17 +8,16 @@ import utilities.*;
 
 import java.util.concurrent.*;
 
-public class Alerts {
+public class Alerts extends TestBase {
 
-    WebDriver driver;
-
-
-    @BeforeClass
-    public void setUp(){
-        driver = Driver.getDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    }
+//
+//
+//    @BeforeClass
+//    public void setUp(){
+//        driver = Driver.getDriver();
+//        driver.manage().window().maximize();
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//    }
 
     @BeforeMethod
     public void goToPage(){

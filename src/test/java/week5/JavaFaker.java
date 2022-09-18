@@ -2,6 +2,8 @@ package week5;
 
 import com.github.javafaker.*;
 import org.testng.annotations.*;
+import utilities.*;
+import week4.*;
 
 public class JavaFaker {
 
@@ -29,5 +31,9 @@ public class JavaFaker {
         System.out.println("lastName = " + lastName);
         System.out.println("birthDate = " + birthDate);
         System.out.println("phoneNumber = " + phoneNumber);
+
+
     }
+
+
 }

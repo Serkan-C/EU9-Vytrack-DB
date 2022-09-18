@@ -12,19 +12,22 @@ public class Task2 {
     @Test
     public void test2(){
 
-//        SmartBearUtil util = new SmartBearUtil();
-//        util.login("chrome");
+        SmartBearUtil util = new SmartBearUtil();
+        util.login("chrome");
 
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
-        WebElement userName = driver.findElement(By.id("ctl00_MainContent_username"));
-        WebElement password = driver.findElement(By.id("ctl00_MainContent_password"));
-        WebElement loginBtn = driver.findElement(By.id("ctl00_MainContent_login_button"));
+        WebDriver driver = util.driver;
 
-        userName.sendKeys("Tester");
-        password.sendKeys("test");
-        loginBtn.click();
+
+//        WebDriverManager.chromedriver().setup();
+//        WebDriver driver = new ChromeDriver();
+//        driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
+//        WebElement userName = driver.findElement(By.id("ctl00_MainContent_username"));
+//        WebElement password = driver.findElement(By.id("ctl00_MainContent_password"));
+//        WebElement loginBtn = driver.findElement(By.id("ctl00_MainContent_login_button"));
+//
+//        userName.sendKeys("Tester");
+//        password.sendKeys("test");
+//        loginBtn.click();
 
         driver.findElement(By.xpath("//a[.=\"Order\"]")).click();
         WebElement product = driver.findElement(By.id("ctl00_MainContent_fmwOrder_ddlProduct"));
