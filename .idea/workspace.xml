@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="Dropdown and alert is explained">
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week1/BasicNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week1/Locator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week1/Locator2CssXpath.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="package for Avenger hours is created.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/iFrames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +48,13 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Locator2CssXpath">
-    <configuration name="BasicNavigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week1.BasicNavigation" />
+  <component name="RunManager" selected="TestNG.Windows.test1">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extraTask.Task2" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week1.*" />
+          <option name="PATTERN" value="extraTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,33 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week1.Locator1" />
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avengerHours.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Locator2CssXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week1.Locator2CssXpath" />
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avengerHours.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Windows.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -98,15 +71,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Alerts" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="week4.Windows" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Alerts.prompt" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="iFrames.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +89,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Alerts" />
-      <option name="METHOD_NAME" value="prompt" />
+      <option name="MAIN_CLASS_NAME" value="week4.iFrames" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iFrames.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.iFrames" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iFrames.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.iFrames" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Locator2CssXpath" />
-        <item itemvalue="Application.Locator1" />
-        <item itemvalue="Application.BasicNavigation" />
-        <item itemvalue="TestNG.Alerts" />
-        <item itemvalue="TestNG.Alerts.prompt" />
+        <item itemvalue="TestNG.Windows.test1" />
+        <item itemvalue="TestNG.iFrames.test1" />
+        <item itemvalue="TestNG.iFrames.test3" />
+        <item itemvalue="TestNG.iFrames.test2" />
+        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +161,9 @@
       <workItem from="1662190658016" duration="27000" />
       <workItem from="1662298262842" duration="10637000" />
       <workItem from="1662901850948" duration="12989000" />
-      <workItem from="1663264271851" duration="5687000" />
+      <workItem from="1663264271851" duration="5724000" />
+      <workItem from="1663399118000" duration="10000" />
+      <workItem from="1663448425535" duration="6597000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -223,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662915050875</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="package for Avenger hours is created.">
+      <created>1663271480477</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663271480477</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +268,7 @@
     <MESSAGE value="isDisplayed() method is explained. &#10;TestNg annotations explained" />
     <MESSAGE value="Assertion is explained" />
     <MESSAGE value="Dropdown and alert is explained" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dropdown and alert is explained" />
+    <MESSAGE value="package for Avenger hours is created." />
+    <option name="LAST_COMMIT_MESSAGE" value="package for Avenger hours is created." />
   </component>
 </project>
