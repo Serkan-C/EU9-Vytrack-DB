@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="package for Avenger hours is created.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/Windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/iFrames.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="iframe and window handle added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WebTableUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/WebTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +47,43 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\utilities" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.Windows.test1">
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extraTask.Task2" />
+  <component name="RunManager" selected="TestNG.WebTables.test2">
+    <configuration name="WebTables.getNames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extraTask.*" />
+          <option name="PATTERN" value="week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.WebTables" />
+      <option name="METHOD_NAME" value="getNames" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTables.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.WebTables" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,24 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iFrames.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.iFrames" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="iFrames.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
@@ -136,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WebTables.test2" />
+        <item itemvalue="TestNG.WebTables.getNames" />
         <item itemvalue="TestNG.Windows.test1" />
         <item itemvalue="TestNG.iFrames.test1" />
         <item itemvalue="TestNG.iFrames.test3" />
-        <item itemvalue="TestNG.iFrames.test2" />
-        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +171,7 @@
       <workItem from="1662901850948" duration="12989000" />
       <workItem from="1663264271851" duration="5724000" />
       <workItem from="1663399118000" duration="10000" />
-      <workItem from="1663448425535" duration="6597000" />
+      <workItem from="1663448425535" duration="8462000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -242,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663271480477</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="iframe and window handle added">
+      <created>1663512362244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663512362244</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +284,7 @@
     <MESSAGE value="Assertion is explained" />
     <MESSAGE value="Dropdown and alert is explained" />
     <MESSAGE value="package for Avenger hours is created." />
-    <option name="LAST_COMMIT_MESSAGE" value="package for Avenger hours is created." />
+    <MESSAGE value="iframe and window handle added" />
+    <option name="LAST_COMMIT_MESSAGE" value="iframe and window handle added" />
   </component>
 </project>
