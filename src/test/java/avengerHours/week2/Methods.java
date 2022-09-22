@@ -32,9 +32,9 @@ public class Methods {
         WebElement textInput = driver.findElement(By.name("email"));
 //        textInput.sendKeys("abc@abc.com" + Keys.ENTER);
 
-        System.out.println(driver.findElement(By.xpath("//label")).getText());
+//        System.out.println(driver.findElement(By.xpath("//label")).getText());
+        System.out.println(driver.findElement(By.xpath("//label")).getAttribute("for"));
+
 
     }
-
-
 }
