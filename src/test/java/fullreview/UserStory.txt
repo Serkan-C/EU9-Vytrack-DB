@@ -16,3 +16,6 @@ Department/Office drop down have the following options: ["Select your Department
 TC2:
  fill the form using random credentials, validate success message as "You've successfully completed registration!".
 
+ findElement :  return one single webElement, if no, return NoSuchElementException.
+ findElements:  return multiple webElemetns as a List, if no, return empty List,not return exception.
+
