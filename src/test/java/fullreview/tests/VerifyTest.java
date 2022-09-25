@@ -57,7 +57,7 @@ public class VerifyTest {
 
     }
 
-    @Test
+    @Test(testName = "ListTest")
     public void test3() {
         driver.get(ConfigurationReader.getProperty("registration.form.url"));
         Select select = new Select(rsPage.departDrop);

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="review page&#10;locators are added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/VerifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/pages/SuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/ActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/RegistrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fullreview/tests/VerifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/VerifyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,35 +54,18 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyTest.test3">
-    <configuration name="LoginTestWithWaits" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ActionTest.hover">
+    <configuration name="ActionTest.hover" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6.pages.tests.*" />
+          <option name="PATTERN" value="fullreview.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week6.pages.tests" />
-      <option name="MAIN_CLASS_NAME" value="week6.pages.tests.LoginTestWithWaits" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTestWithWaits.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week6.pages.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week6.pages.tests" />
-      <option name="MAIN_CLASS_NAME" value="week6.pages.tests.LoginTestWithWaits" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="fullreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="fullreview.tests.ActionTest" />
+      <option name="METHOD_NAME" value="hover" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,7 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyTest.navigationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest.regTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fullreview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fullreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="fullreview.tests.RegistrationTest" />
+      <option name="METHOD_NAME" value="regTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +101,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="fullreview.tests" />
       <option name="MAIN_CLASS_NAME" value="fullreview.tests.VerifyTest" />
-      <option name="METHOD_NAME" value="navigationTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionTest.hover" />
+        <item itemvalue="TestNG.RegistrationTest.regTest" />
+        <item itemvalue="TestNG.VerifyTest" />
         <item itemvalue="TestNG.VerifyTest.test3" />
         <item itemvalue="TestNG.VerifyTest.validateTest" />
-        <item itemvalue="TestNG.VerifyTest.navigationTest" />
-        <item itemvalue="TestNG.LoginTestWithWaits" />
-        <item itemvalue="TestNG.LoginTestWithWaits.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,7 @@
       <workItem from="1663865861754" duration="3441000" />
       <workItem from="1663918156876" duration="3477000" />
       <workItem from="1664002216265" duration="487000" />
-      <workItem from="1664104083377" duration="11461000" />
+      <workItem from="1664104083377" duration="14283000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -345,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664122388974</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="review page&#10;locators are added">
+      <created>1664128796561</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664128796561</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
