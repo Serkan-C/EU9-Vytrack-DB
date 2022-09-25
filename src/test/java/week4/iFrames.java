@@ -18,13 +18,14 @@ public class iFrames {
     }
 
     @BeforeMethod
-    public void getUrl(){
+    public void getUrl() {
         driver.get("http://practice.cybertekschool.com/nested_frames");
 
     }
 
+
     @Test
-    public void test1(){
+    public void test1() {
         driver.switchTo().frame(0);
 
         driver.switchTo().frame("frame-left");
@@ -32,8 +33,9 @@ public class iFrames {
         System.out.println(driver.findElement(By.xpath("//body")).getText());
     }
 
+
     @Test
-    public void test2(){
+    public void test2() {
 
         driver.switchTo().frame("frame-top");
 
@@ -43,7 +45,7 @@ public class iFrames {
     }
 
     @Test
-    public void test3(){
+    public void test3() {
         driver.switchTo().frame("frame-top");
 
         WebElement rightFrame = driver.findElement(By.name("frame-right"));
