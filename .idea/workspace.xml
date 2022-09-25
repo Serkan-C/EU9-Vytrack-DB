@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="pom and wait are added">
-      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTestWithWaits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTestWithWaits.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="review page&#10;locators are added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/VerifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9SeleniumReview&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9SeleniumReview/src/test/java/fullreview"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\fullreview" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\utilities" />
     </key>
@@ -49,7 +52,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestWithWaits">
+  <component name="RunManager" selected="TestNG.VerifyTest.test3">
     <configuration name="LoginTestWithWaits" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
@@ -85,17 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyTest.navigationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6.pages.tests.*" />
+          <option name="PATTERN" value="fullreview.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week6.pages.tests" />
-      <option name="MAIN_CLASS_NAME" value="week6.pages.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="PACKAGE_NAME" value="fullreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="fullreview.tests.VerifyTest" />
+      <option name="METHOD_NAME" value="navigationTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,17 +106,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.sadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyTest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6.pages.tests.*" />
+          <option name="PATTERN" value="fullreview.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week6.pages.tests" />
-      <option name="MAIN_CLASS_NAME" value="week6.pages.tests.LoginTest" />
-      <option name="METHOD_NAME" value="sadTest" />
+      <option name="PACKAGE_NAME" value="fullreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="fullreview.tests.VerifyTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,17 +124,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iFrames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyTest.validateTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.*" />
+          <option name="PATTERN" value="fullreview.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.iFrames" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="fullreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="fullreview.tests.VerifyTest" />
+      <option name="METHOD_NAME" value="validateTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VerifyTest.test3" />
+        <item itemvalue="TestNG.VerifyTest.validateTest" />
+        <item itemvalue="TestNG.VerifyTest.navigationTest" />
         <item itemvalue="TestNG.LoginTestWithWaits" />
         <item itemvalue="TestNG.LoginTestWithWaits.test1" />
-        <item itemvalue="TestNG.LoginTest.sadTest" />
-        <item itemvalue="TestNG.LoginTest.loginTest" />
-        <item itemvalue="TestNG.iFrames" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +175,7 @@
       <workItem from="1663865861754" duration="3441000" />
       <workItem from="1663918156876" duration="3477000" />
       <workItem from="1664002216265" duration="487000" />
-      <workItem from="1664104083377" duration="5994000" />
+      <workItem from="1664104083377" duration="11461000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -327,7 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664117163042</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="different waits are added.">
+      <created>1664118815520</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664118815520</updated>
+    </task>
+    <task id="LOCAL-00024" summary="review page&#10;locators are added">
+      <created>1664122388974</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664122388974</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +381,8 @@
     <MESSAGE value="week 2 review codes" />
     <MESSAGE value="radio buttons and check box is added." />
     <MESSAGE value="pom and wait are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom and wait are added" />
+    <MESSAGE value="different waits are added." />
+    <MESSAGE value="review page&#10;locators are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="review page&#10;locators are added" />
   </component>
 </project>
