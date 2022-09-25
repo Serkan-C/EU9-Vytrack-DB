@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="radio buttons and check box is added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTestWithWaits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week4/iFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/iFrames.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="pom and wait are added">
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTestWithWaits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTestWithWaits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +49,20 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestWithWaits.test1">
-    <configuration name="RadioButtons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week2.RadioButtons" />
+  <component name="RunManager" selected="TestNG.LoginTestWithWaits">
+    <configuration name="LoginTestWithWaits" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week2.*" />
+          <option name="PATTERN" value="week6.pages.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week6.pages.tests" />
+      <option name="MAIN_CLASS_NAME" value="week6.pages.tests.LoginTestWithWaits" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTestWithWaits" />
         <item itemvalue="TestNG.LoginTestWithWaits.test1" />
         <item itemvalue="TestNG.LoginTest.sadTest" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG.iFrames" />
-        <item itemvalue="Application.RadioButtons" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,7 @@
       <workItem from="1663865861754" duration="3441000" />
       <workItem from="1663918156876" duration="3477000" />
       <workItem from="1664002216265" duration="487000" />
-      <workItem from="1664104083377" duration="5050000" />
+      <workItem from="1664104083377" duration="5994000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663872504649</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="pom and wait are added">
+      <created>1664117163042</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664117163042</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +362,7 @@
     <MESSAGE value="upload, actions, js exectuer added." />
     <MESSAGE value="week 2 review codes" />
     <MESSAGE value="radio buttons and check box is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="radio buttons and check box is added." />
+    <MESSAGE value="pom and wait are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom and wait are added" />
   </component>
 </project>
