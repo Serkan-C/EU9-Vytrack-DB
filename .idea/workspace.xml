@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="new content added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/AlertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/FrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/TabelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/UploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/WindowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Frames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/WebTabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/sample.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fullreview/tests/ActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fullreview/tests/ActionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,123 +38,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9SeleniumReview/src/test/java/fullreview"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9SeleniumReview/src/test/java/fullreview&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\fullreview" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9SeleniumReview\src\test\java\utilities" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="week6.pages" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TabelTest.webTabel">
-    <configuration name="FrameTest.getFrameByElement" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Upload">
+    <configuration name="Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Alerts" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fullreview.tests.*" />
+          <option name="PATTERN" value="avengerHours.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fullreview.tests" />
-      <option name="MAIN_CLASS_NAME" value="fullreview.tests.FrameTest" />
-      <option name="METHOD_NAME" value="getFrameByElement" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameTest.getFrameByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Frames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Frames" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fullreview.tests.*" />
+          <option name="PATTERN" value="avengerHours.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fullreview.tests" />
-      <option name="MAIN_CLASS_NAME" value="fullreview.tests.FrameTest" />
-      <option name="METHOD_NAME" value="getFrameByIndex" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabelTest.webTabel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Upload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Upload" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fullreview.tests.*" />
+          <option name="PATTERN" value="avengerHours.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fullreview.tests" />
-      <option name="MAIN_CLASS_NAME" value="fullreview.tests.TabelTest" />
-      <option name="METHOD_NAME" value="webTabel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadTest.upload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.WebTabel" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fullreview.tests.*" />
+          <option name="PATTERN" value="avengerHours.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fullreview.tests" />
-      <option name="MAIN_CLASS_NAME" value="fullreview.tests.UploadTest" />
-      <option name="METHOD_NAME" value="upload" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowTest.window" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Windows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Windows" />
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fullreview.tests.*" />
+          <option name="PATTERN" value="avengerHours.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fullreview.tests" />
-      <option name="MAIN_CLASS_NAME" value="fullreview.tests.WindowTest" />
-      <option name="METHOD_NAME" value="window" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TabelTest.webTabel" />
-        <item itemvalue="TestNG.WindowTest.window" />
-        <item itemvalue="TestNG.FrameTest.getFrameByElement" />
-        <item itemvalue="TestNG.FrameTest.getFrameByIndex" />
-        <item itemvalue="TestNG.UploadTest.upload" />
+        <item itemvalue="Application.Upload" />
+        <item itemvalue="Application.WebTabel" />
+        <item itemvalue="Application.Alerts" />
+        <item itemvalue="Application.Windows" />
+        <item itemvalue="Application.Frames" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +159,10 @@
       <workItem from="1663865861754" duration="3441000" />
       <workItem from="1663918156876" duration="3477000" />
       <workItem from="1664002216265" duration="487000" />
-      <workItem from="1664104083377" duration="17197000" />
+      <workItem from="1664104083377" duration="17483000" />
+      <workItem from="1664917066097" duration="124000" />
+      <workItem from="1665075798155" duration="1632000" />
+      <workItem from="1665077494587" duration="3943000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -365,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664131602817</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="new content added">
+      <created>1664134703704</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1664134703704</updated>
+    </task>
+    <task id="LOCAL-00028" summary="new content added">
+      <created>1664134909223</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1664134909223</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
