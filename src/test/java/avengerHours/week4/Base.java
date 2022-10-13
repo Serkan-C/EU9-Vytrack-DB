@@ -8,7 +8,7 @@ import utilities.*;
 
 public abstract class Base {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     @BeforeClass
     public void setUp(){

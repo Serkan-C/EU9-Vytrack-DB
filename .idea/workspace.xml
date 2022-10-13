@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="Avenger Hour week 3 is added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/ActionPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/HoverPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/TestNG.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="week 4 is added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/KeyboardPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTestWithWaits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/LoginTestWithWaits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avengerHours/week4/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/Base.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +55,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverPractice.test1">
+  <component name="RunManager" selected="TestNG.KeyboardPractice">
     <configuration name="ActionPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
@@ -72,24 +67,6 @@
       <option name="PACKAGE_NAME" value="avengerHours.week4" />
       <option name="MAIN_CLASS_NAME" value="avengerHours.week4.ActionPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActionPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avengerHours.week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avengerHours.week4" />
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.ActionPractice" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -114,6 +91,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HoverPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avengerHours.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avengerHours.week4" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.HoverPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HoverPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
@@ -132,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyboardPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +135,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="avengerHours.week4" />
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.KeyboardPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -151,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeyboardPractice" />
+        <item itemvalue="TestNG.HoverPractice" />
+        <item itemvalue="TestNG.ActionPractice" />
         <item itemvalue="TestNG.HoverPractice.test1" />
         <item itemvalue="TestNG.ActionPractice.test2" />
-        <item itemvalue="TestNG.ActionPractice" />
-        <item itemvalue="TestNG.ActionPractice.test1" />
-        <item itemvalue="TestNG.TestNG" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +180,7 @@
       <workItem from="1664917066097" duration="124000" />
       <workItem from="1665075798155" duration="1632000" />
       <workItem from="1665077494587" duration="4171000" />
-      <workItem from="1665672028612" duration="5485000" />
+      <workItem from="1665672028612" duration="6645000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -391,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665081653648</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="week 4 is added">
+      <created>1665683232762</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1665683232762</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +432,7 @@
     <MESSAGE value="review page&#10;locators are added" />
     <MESSAGE value="new content added" />
     <MESSAGE value="Avenger Hour week 3 is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Avenger Hour week 3 is added." />
+    <MESSAGE value="week 4 is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 is added" />
   </component>
 </project>
