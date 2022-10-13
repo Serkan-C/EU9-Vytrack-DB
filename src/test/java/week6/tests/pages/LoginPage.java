@@ -1,8 +1,7 @@
-package week6.pages;
+package week6.tests.pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
-import org.testng.annotations.*;
 import utilities.*;
 
 public class LoginPage {

@@ -1,10 +1,12 @@
-package week6.pages.tests;
+package week6.tests;
 
 import org.openqa.selenium.*;
 import org.testng.*;
 import org.testng.annotations.*;
+//import pages.*;
 import utilities.*;
-import week6.pages.*;
+//import week6.pages.*;
+import week6.tests.pages.*;
 
 import java.util.concurrent.*;
 

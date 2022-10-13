@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="new content added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Upload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/WebTabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/Windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week3/sample.txt" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="Avenger Hour week 3 is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/ActionPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/HoverPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/TestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/pages/tests/LoginTestWithWaits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/LoginTestWithWaits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,79 +60,102 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Upload">
-    <configuration name="Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Alerts" />
+  <component name="RunManager" selected="TestNG.HoverPractice.test1">
+    <configuration name="ActionPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week3.*" />
+          <option name="PATTERN" value="avengerHours.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="avengerHours.week4" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.ActionPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Frames" />
+    <configuration name="ActionPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week3.*" />
+          <option name="PATTERN" value="avengerHours.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="avengerHours.week4" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.ActionPractice" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Upload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Upload" />
+    <configuration name="ActionPractice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week3.*" />
+          <option name="PATTERN" value="avengerHours.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="avengerHours.week4" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.ActionPractice" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.WebTabel" />
+    <configuration name="HoverPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week3.*" />
+          <option name="PATTERN" value="avengerHours.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="avengerHours.week4" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.HoverPractice" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Windows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week3.Windows" />
+    <configuration name="TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week3.*" />
+          <option name="PATTERN" value="avengerHours.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="avengerHours.week4" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.TestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Upload" />
-        <item itemvalue="Application.WebTabel" />
-        <item itemvalue="Application.Alerts" />
-        <item itemvalue="Application.Windows" />
-        <item itemvalue="Application.Frames" />
+        <item itemvalue="TestNG.HoverPractice.test1" />
+        <item itemvalue="TestNG.ActionPractice.test2" />
+        <item itemvalue="TestNG.ActionPractice" />
+        <item itemvalue="TestNG.ActionPractice.test1" />
+        <item itemvalue="TestNG.TestNG" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +185,8 @@
       <workItem from="1664104083377" duration="17483000" />
       <workItem from="1664917066097" duration="124000" />
       <workItem from="1665075798155" duration="1632000" />
-      <workItem from="1665077494587" duration="3943000" />
+      <workItem from="1665077494587" duration="4171000" />
+      <workItem from="1665672028612" duration="5485000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -360,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664134909223</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Avenger Hour week 3 is added.">
+      <created>1665081653648</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1665081653648</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +430,7 @@
     <MESSAGE value="different waits are added." />
     <MESSAGE value="review page&#10;locators are added" />
     <MESSAGE value="new content added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new content added" />
+    <MESSAGE value="Avenger Hour week 3 is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Avenger Hour week 3 is added." />
   </component>
 </project>
