@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="week 4 , actions class is added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/JSExecuterPractice.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="week 4 , js executer is added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/FakerPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +56,8 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JSExecuterPractice.test2">
-    <configuration name="ActionPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FakerPractice.test1">
+    <configuration name="FakerPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +66,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="avengerHours.week4" />
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.ActionPractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.FakerPractice" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FakerPractice.test1" />
         <item itemvalue="TestNG.JSExecuterPractice.test2" />
         <item itemvalue="TestNG.JSExecuterPractice" />
         <item itemvalue="TestNG.KeyboardPractice" />
         <item itemvalue="TestNG.HoverPractice" />
-        <item itemvalue="TestNG.ActionPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +181,7 @@
       <workItem from="1664917066097" duration="124000" />
       <workItem from="1665075798155" duration="1632000" />
       <workItem from="1665077494587" duration="4171000" />
-      <workItem from="1665672028612" duration="7291000" />
+      <workItem from="1665672028612" duration="8875000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -397,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665684536370</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="week 4 , js executer is added">
+      <created>1665685252961</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1665685252961</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,6 +449,7 @@
     <MESSAGE value="Avenger Hour week 3 is added." />
     <MESSAGE value="week 4 is added" />
     <MESSAGE value="week 4 , actions class is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 4 , actions class is added" />
+    <MESSAGE value="week 4 , js executer is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 , js executer is added" />
   </component>
 </project>
