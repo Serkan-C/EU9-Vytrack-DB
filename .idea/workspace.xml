@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="week 4 , js executer is added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week4/FakerPractice.java" afterDir="false" />
+    <list default="true" id="71744849-454a-447f-9afa-155a6e918d63" name="Changes" comment="week 4 java faker is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week5/pages/ButtonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week5/pages/ButtonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/avengerHours/week5/waits/Waits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/tests/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/tests/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,25 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FakerPractice.test1">
+  <component name="RunManager" selected="TestNG.Waits.test1">
+    <configuration name="ButtonTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU9SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avengerHours.week5.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avengerHours.week5.pages" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week5.pages.ButtonTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FakerPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
@@ -69,23 +89,6 @@
       <option name="MAIN_CLASS_NAME" value="avengerHours.week4.FakerPractice" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoverPractice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU9SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avengerHours.week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avengerHours.week4" />
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.HoverPractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -127,17 +130,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyboardPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Waits.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU9SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avengerHours.week4.*" />
+          <option name="PATTERN" value="avengerHours.week5.waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="avengerHours.week4" />
-      <option name="MAIN_CLASS_NAME" value="avengerHours.week4.KeyboardPractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="avengerHours.week5.waits" />
+      <option name="MAIN_CLASS_NAME" value="avengerHours.week5.waits.Waits" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Waits.test1" />
+        <item itemvalue="TestNG.ButtonTest.test1" />
         <item itemvalue="TestNG.FakerPractice.test1" />
         <item itemvalue="TestNG.JSExecuterPractice.test2" />
         <item itemvalue="TestNG.JSExecuterPractice" />
-        <item itemvalue="TestNG.KeyboardPractice" />
-        <item itemvalue="TestNG.HoverPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +185,8 @@
       <workItem from="1664917066097" duration="124000" />
       <workItem from="1665075798155" duration="1632000" />
       <workItem from="1665077494587" duration="4171000" />
-      <workItem from="1665672028612" duration="8875000" />
+      <workItem from="1665672028612" duration="8983000" />
+      <workItem from="1666284784860" duration="2917000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1661110355890</created>
@@ -407,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665685252961</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="week 4 java faker is added.">
+      <created>1665686658847</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1665686658847</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first push" />
     <MESSAGE value="automation week 2" />
     <MESSAGE value="automation week 2 xpath added" />
     <MESSAGE value="find element and find elements added" />
@@ -450,6 +461,7 @@
     <MESSAGE value="week 4 is added" />
     <MESSAGE value="week 4 , actions class is added" />
     <MESSAGE value="week 4 , js executer is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 4 , js executer is added" />
+    <MESSAGE value="week 4 java faker is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 java faker is added." />
   </component>
 </project>

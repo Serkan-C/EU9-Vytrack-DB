@@ -32,6 +32,7 @@ public class LoginTest {
         String expectedMsg= "You logged into a secure area!\n" +
                 "×";
         Assert.assertEquals(loginPage.successMsg.getText(),expectedMsg);
+
     }
 
     @Test

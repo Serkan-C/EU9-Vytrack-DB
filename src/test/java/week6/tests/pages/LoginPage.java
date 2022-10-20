@@ -13,6 +13,7 @@ public class LoginPage {
     @FindBy(name = "username")
     public WebElement nameInput;
 
+
     @FindBy(name = "password")
     public WebElement passwordInput;
 
